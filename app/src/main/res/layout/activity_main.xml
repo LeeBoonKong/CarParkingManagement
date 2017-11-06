@@ -66,7 +66,7 @@
             android:layout_weight="0.07" />
 
         <Button
-            android:id="@+id/Button"
+            android:id="@+id/doneButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Done" />
