@@ -3,16 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
 
-    < HEAD
-        android:id="@+id/qrCodeButton"
-        android:icon="@android:drawable/ic_dialog_info"
-        android:title="QR Code"
-        app:showAsAction="never"></item>
     <item
-        android:id="@+id/topUpButton"
-        android:title="Top Up"
-</menu>x<![CDATA[=======
         android:id="@+id/add"
         android:icon="@android:drawable/ic_menu_add"
         app:showAsAction="always" />
-    ]]>
+    <item
+        android:id="@+id/reset"
+        android:icon="@android:drawable/ic_menu_revert"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="about"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/exit"
+        android:title="exit"
+        app:showAsAction="never"></item>
+</menu>
