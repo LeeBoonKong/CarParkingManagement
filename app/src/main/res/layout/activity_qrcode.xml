@@ -14,7 +14,7 @@
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/Empty label"
+        android:id="@+id/EmptyLabel"
         android:layout_width="match_parent"
         android:layout_height="176dp"
         android:layout_weight="0.71" />

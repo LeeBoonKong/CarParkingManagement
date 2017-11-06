@@ -6,24 +6,38 @@
     android:weightSum="1">
 
     <TextView
-        android:id="@+id/LabelQR"
+        android:id="@+id/emptyLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your QR Code"
-        android:textAlignment="center"
-        android:textSize="30sp" />
+        android:layout_weight="0.26" />
 
     <TextView
-        android:id="@+id/Emptylabel"
+        android:id="@+id/label1"
         android:layout_width="match_parent"
-        android:layout_height="176dp"
-        android:layout_weight="0.71" />
+        android:layout_height="wrap_content"
+        android:text="Enter your code below"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_weight="0.07" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned" />
 
     <TextView
         android:id="@+id/LabelInst"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Scan QR Code above before entering parking space"
+        android:text="Key in the code that you will received in SMS"
         android:textAlignment="center"
         android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/verifyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VERIFY" />
 </LinearLayout>
