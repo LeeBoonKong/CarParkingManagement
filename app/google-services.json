@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "376896773434",
+    "firebase_url": "https://car-parking-management.firebaseio.com",
+    "project_id": "car-parking-management",
+    "storage_bucket": "car-parking-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376896773434:android:05ec5dd19e65043a",
+        "android_client_info": {
+          "package_name": "unimyiw.carparkingmanagement2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376896773434-shf7povrj332dj5kgesp0os23dfhp415.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "unimyiw.carparkingmanagement2",
+            "certificate_hash": "a2b4b6460f6c715f51a18eaef2bd35c292d9e42a"
+          }
+        },
+        {
+          "client_id": "376896773434-v95jr2fb6bu949brskqearecfl0qtp98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoCgOQa8CpAv3eRmWPFONf65H3risRYzU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376896773434-v95jr2fb6bu949brskqearecfl0qtp98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
