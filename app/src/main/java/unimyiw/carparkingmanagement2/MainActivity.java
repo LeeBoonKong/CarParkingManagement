@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        private FirebaseAuth mAuth;
+
         Button doneButton = (Button)findViewById(R.id.doneButton);
 
         doneButton.setOnClickListener(new View.OnClickListener() {
