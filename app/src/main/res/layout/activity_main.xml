@@ -52,15 +52,14 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/editText7"
+            android:id="@+id/phoneNo"
             android:layout_width="match_parent"
-            android:layout_height="31dp"
+            android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="phone"
-            android:layout_weight="0.08" />
+            android:inputType="phone" />
 
         <TextView
-            android:id="@+id/Empty"
+            android:id="@+id/warning"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.07" />
