@@ -44,31 +44,10 @@
             android:layout_weight="0.15" />
 
         <TextView
-            android:id="@+id/textView13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter your phone number"
-            android:textAlignment="center"
-            android:textSize="18sp" />
-
-        <EditText
-            android:id="@+id/phoneNo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="phone" />
-
-        <TextView
             android:id="@+id/warning"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.07" />
-
-        <Button
-            android:id="@+id/doneButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Done" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
