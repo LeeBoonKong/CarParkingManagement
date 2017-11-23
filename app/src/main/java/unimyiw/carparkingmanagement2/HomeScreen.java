@@ -1,10 +1,15 @@
 package unimyiw.carparkingmanagement2;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.firebase.ui.auth.AuthUI;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 
 public class HomeScreen extends AppCompatActivity {
 
@@ -27,9 +32,24 @@ public class HomeScreen extends AppCompatActivity {
             // Start QRCode.class
             Intent myIntent = new Intent(HomeScreen.this,QRCode.class);
             startActivity(myIntent);
+            return true;
         case R.id.topUpButton:
             // Start QRCode.class
+        case R.id.signOutButton:
+            signOut();
+            return true;
     }
         return(super.onOptionsItemSelected(item));
+    }
+
+    private void signOut() {
+        AuthUI.getInstance().signOut(this)
+                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        startActivity(new Intent(HomeScreen.this, MainActivity.class));
+                        finish();
+                    }
+                });
     }
 }
