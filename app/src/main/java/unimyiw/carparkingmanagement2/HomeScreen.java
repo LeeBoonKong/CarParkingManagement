@@ -30,11 +30,15 @@ public class HomeScreen extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) { switch(item.getItemId()) {
         case R.id.qrCodeButton:
             // Start QRCode.class
-            Intent myIntent = new Intent(HomeScreen.this,QRCode.class);
-            startActivity(myIntent);
+            Intent qrCode = new Intent(HomeScreen.this,QRCode.class);
+            startActivity(qrCode);
             return true;
         case R.id.topUpButton:
-            // Start QRCode.class
+            //
+        case R.id.mallButton:
+            Intent mallStatus = new Intent(HomeScreen.this, MallStatus.class);
+            startActivity(mallStatus);
+            return true;
         case R.id.signOutButton:
             signOut();
             return true;
