@@ -34,8 +34,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Button doneButton = (Button)findViewById(R.id.doneButton);
-
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
         if(mAuth.getCurrentUser() != null) {
 
@@ -54,19 +52,6 @@ public class MainActivity extends AppCompatActivity {
                         )).build(),REQUEST_LOGIN);
             }
     }
-
-        //Activity for doneButton
-        /*doneButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-
-                phoneNo = input.getText().toString();
-
-                // Start NewActivity.class
-                    Intent myIntent = new Intent(MainActivity.this,
-                            SMSVerify.class);
-                    startActivity(myIntent);
-            }
-        });*/
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
