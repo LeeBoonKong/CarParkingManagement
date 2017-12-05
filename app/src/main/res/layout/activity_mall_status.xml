@@ -20,7 +20,8 @@
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.1" />
+        android:layout_weight="0.1"
+        android:text="select"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -69,7 +70,7 @@
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/Rate"
+            android:id="@+id/rate1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.47"
@@ -92,7 +93,7 @@
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/Rate2"
+            android:id="@+id/rate2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -116,7 +117,7 @@
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/Rate3"
+            android:id="@+id/rate3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.66"
