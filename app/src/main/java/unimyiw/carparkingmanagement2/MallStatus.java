@@ -20,11 +20,9 @@ import java.util.List;
 
 public class MallStatus extends AppCompatActivity implements Spinner.OnItemSelectedListener {
 
-    DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
     DatabaseReference mMallRef = FirebaseDatabase.getInstance().getReference("Mall");
     
     TextView spaces;
-    TextView textViewxt;
     TextView rate1;
     TextView rate2;
     TextView rate3;
