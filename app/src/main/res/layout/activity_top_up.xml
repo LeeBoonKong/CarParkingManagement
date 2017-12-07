@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="unimyiw.carparkingmanagement2.TopUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Top Up Your Credit Here!"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/topUpTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RM 10" />
+
+        <Button
+            android:id="@+id/topUpTwenty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RM 20" />
+
+        <Button
+            android:id="@+id/topUpThirty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RM 30" />
+
+        <Button
+            android:id="@+id/topUpForty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RM 40" />
+
+        <Button
+            android:id="@+id/topUpFifty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RM 50" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -73,7 +73,9 @@ public class HomeScreen extends AppCompatActivity {
             startActivity(qrCode);
             return true;
         case R.id.topUpButton:
-            //
+            Intent topUp = new Intent(HomeScreen.this, TopUp.class);
+            startActivity(topUp);
+            return true;
         case R.id.mallButton:
             Intent mallStatus = new Intent(HomeScreen.this, MallStatus.class);
             startActivity(mallStatus);
