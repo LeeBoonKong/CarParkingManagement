@@ -125,4 +125,11 @@
             android:textSize="24sp" />
     </LinearLayout>
 
+    <Button
+        android:id="@+id/bookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="Book This Space!" />
+
 </LinearLayout>
