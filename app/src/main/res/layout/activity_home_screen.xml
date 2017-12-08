@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,19 +12,28 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteY="164dp">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:adjustViewBounds="false"
+            local:srcCompat="@drawable/lbk" />
+
         <TextView
             android:id="@+id/userName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:elevation="5dp"/>
 
         <TextView
             android:id="@+id/phoneNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:elevation="5dp"/>
 
         <TextView
             android:id="@+id/textView11"
@@ -32,14 +41,15 @@
             android:layout_height="wrap_content"
             android:text="Remaining Credit:"
             android:textAlignment="center"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:elevation="5dp"/>
 
         <TextView
             android:id="@+id/credit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textSize="30sp" />
-
+            android:textSize="30sp"
+            android:elevation="5dp"/>
     </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
